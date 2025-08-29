@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Support Pro</title>
+  <meta name="description" content="Implemente em 5 dias um agente IA de suporte 24/7. Reduza custos, elimine sobrecarga e aumente a satisfação dos clientes. Sem fidelidade." />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Agente IA de Suporte 24/7 – AI Support Pro" />
+  <meta property="og:description" content="Implemente em 5 dias um Agente IA que atende 24/7 com humanização e reduz custos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/neural-bg.svg" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+  <!-- CSS -->
+  <link rel="preload" href="/css/variables.css" as="style" />
+  <link rel="stylesheet" href="/css/variables.css" />
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/utilities.css" />
+  <link rel="stylesheet" href="/css/responsive.css" />
+</head>
+<body data-whatsapp="5582981777699">
+  <!-- MODAL PROMOCIONAL -->
+  <div class="promo-modal-overlay" id="promoModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="promo-modal" role="document" tabindex="-1">
+      <button class="promo-modal-close" aria-label="Fechar modal">&times;</button>
+      <span class="promo-modal-icon" aria-hidden="true">🎉</span>
+      <h3 class="promo-modal-title">Oferta Especial!</h3>
+      <p class="promo-modal-subtitle">Você chegou na hora certa para aproveitar nossa promoção exclusiva</p>
+      <div class="promo-modal-highlight">
+        <div class="highlight-title">Implementação GRATUITA em <span id="currentMonth"></span></div>
+        <div class="highlight-text">Economize R$ 997 na taxa de implementação!</div>
+      </div>
+      <ul class="promo-modal-benefits">
+        <li>Implementação completa sem custo adicional</li>
+        <li>Válido apenas para este mês</li>
+        <li>Vagas limitadas</li>
+        <li>Suporte completo incluído</li>
+      </ul>
+      <button class="promo-modal-cta" data-action="scroll-to-plans">Ver Planos Disponíveis</button>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="#hero" class="logo">Forux</a>
+        <nav class="nav" aria-label="Navegação principal">
+          <a href="#benefits" class="nav-link">Benefícios</a>
+          <a href="#guarantees" class="nav-link">Garantias</a>
+          <a href="#pricing" class="nav-link">Planos</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Abrir menu mobile" aria-controls="mobile-nav" aria-expanded="false">☰</button>
+        <div class="mobile-nav" id="mobile-nav">
+          <a href="#benefits" class="nav-link">Benefícios</a>
+          <a href="#guarantees" class="nav-link">Garantias</a>
+          <a href="#pricing" class="nav-link">Planos</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero" aria-label="Destaque">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title display-xl">
+          Sua equipe de suporte está <span class="highlight">SOBRECARREGADA</span> e seus clientes estão <span class="highlight">ABANDONANDO</span> você?
+        </h1>
+        <p class="hero-subtitle text-xl">
+          Implemente em 5 dias um agente IA que atende 24/7 com a humanização de um especialista sênior. Sem contratos de fidelidade, sem encargos trabalhistas, por uma fração do custo de um salário.
+        </p>
+        <a href="#pricing" class="hero-cta">Implementar meu agente IA em 5 dias <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section-padding" id="faq" aria-label="Perguntas frequentes">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 class="section-title display-md">Principais dúvidas</h2>
+        <p class="section-subtitle text-lg">Respostas diretas para suas preocupações mais comuns</p>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item fade-in-up">
+          <button class="faq-question">🤔 E se não funcionar no nosso negócio específico?</button>
+          <div class="faq-answer"><p>Nosso agente se adapta a QUALQUER setor. Já atendemos desde SaaS até indústria pesada. A IA é treinada com suas informações e processos únicos.</p></div>
+        </div>
+        <div class="faq-item fade-in-up">
+          <button class="faq-question">🤔 Nossos clientes vão perceber que é IA?</button>
+          <div class="faq-answer"><p>Nossa tecnologia de humanização busca uma experiência natural. Indicamos casos reais e métricas de satisfação para comprovar.</p></div>
+        </div>
+        <div class="faq-item fade-in-up">
+          <button class="faq-question">🤔 E a integração com nossos sistemas atuais?</button>
+          <div class="faq-answer"><p>Integração nativa com ClickUp e APIs para outras ferramentas. Garantimos compatibilidade sem interromper seus processos.</p></div>
+        </div>
+        <div class="faq-item fade-in-up">
+          <button class="faq-question">🤔 Quanto tempo para ver resultados reais?</button>
+          <div class="faq-answer"><p>Você verá impacto rápido após a implementação. Compartilhamos estudos de caso e metas para o seu cenário.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOLTAR AO TOPO -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+
+<!-- NOTIFICAÇÃO PROMOCIONAL SIMPLIFICADA -->
+<div class="promo-notification" id="promoNotification" onclick="showPromoMessage()">
+    <!-- Ícone SVG de chat centralizado -->
+    <svg class="promo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M2 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10c-1.82 0-3.53-.49-5-1.34L2 22l1.34-5C2.49 15.53 2 13.82 2 12zm6 0h8v2H8v-2zm0-4h8v2H8V8z"/>
+    </svg>
+    <span class="promo-badge"></span>
+</div>
+
+
+  <!-- BENEFÍCIOS -->
+  <section class="benefits section-padding" id="benefits" aria-label="Benefícios">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 class="section-title display-md">Por Que Seu Suporte Precisa de um Agente IA?</h2>
+        <p class="section-subtitle text-lg">Pare de perder clientes por falta de atendimento e elimine a sobrecarga da sua equipe</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card fade-in-up"><div class="benefit-icon">🤖</div><h3>Implementação em 5 dias</h3><p>Seu agente IA personalizado em menos de uma semana, treinado com suas informações.</p></div>
+        <div class="benefit-card fade-in-up"><div class="benefit-icon">⏰</div><h3>Atendimento 24/7</h3><p>Nunca mais perca um cliente por falta de atendimento, inclusive em feriados.</p></div>
+        <div class="benefit-card fade-in-up"><div class="benefit-icon">💰</div><h3>Economia de custos</h3><p>Custa uma fração de um salário e atende centenas simultaneamente.</p></div>
+        <div class="benefit-card fade-in-up"><div class="benefit-icon">🧠</div><h3>Humanização avançada</h3><p>Conversas naturais, com entendimento de contexto.</p></div>
+        <div class="benefit-card fade-in-up"><div class="benefit-icon">📊</div><h3>Relatórios inteligentes</h3><p>Acompanhe atendimentos e padrões em tempo real.</p></div>
+        <div class="benefit-card fade-in-up"><div class="benefit-icon">🔄</div><h3>Sem fidelidade</h3><p>Flexibilidade total. Cancele quando quiser.</p></div>
+        <div class="benefit-card fade-in-up"><div class="benefit-icon">🎯</div><h3>Inteligência multissensorial</h3><p>Texto, imagens, áudio e histórico de contexto.</p></div>
+        <div class="benefit-card fade-in-up"><div class="benefit-icon">📢</div><h3>Comunicação Ativa</h3><p>Notifica atualizações, resoluções e mantém o cliente no loop.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GARANTIAS -->
+  <section class="social-proof section-padding" id="guarantees" aria-label="Garantias">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 class="section-title display-md">Nossas garantias para Você</h2>
+        <p class="section-subtitle text-lg">Transparência total e compromisso com seus resultados</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item fade-in-up"><div class="guarantee-icon">🚫</div><div class="guarantee-title">SEM FIDELIDADE</div><p class="guarantee-text">Cancele quando quiser</p></div>
+        <div class="stat-item fade-in-up"><div class="guarantee-icon">✅</div><div class="guarantee-title">SEM ENCARGOS</div><p class="guarantee-text">Somente implementação + mensalidade</p></div>
+        <div class="stat-item fade-in-up"><div class="guarantee-icon">🔒</div><div class="guarantee-title">SEGURANÇA</div><p class="guarantee-text">Dados protegidos</p></div>
+        <div class="stat-item fade-in-up"><div class="guarantee-icon">🤝</div><div class="guarantee-title">SUPORTE</div><p class="guarantee-text">Implementação e suporte</p></div>
+        <div class="stat-item fade-in-up"><div class="guarantee-icon">⭐</div><div class="guarantee-title">RESULTADOS</div><p class="guarantee-text">Acompanhamento de metas</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section class="pricing section-padding" id="pricing" aria-label="Planos">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 class="section-title display-md">Escolha o plano ideal para sua Empresa</h2>
+        <p class="section-subtitle text-lg">Planos flexíveis que crescem junto com seu negócio</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card fade-in-up">
+          <h3 class="pricing-title">BASIC</h3>
+          <div class="price">R$ 800 / mês</div>
+          <ul class="features-list">
+            <li>Até 300 contatos únicos/mês</li>
+            <li>Integração completa ClickUp</li>
+            <li>Suporte via chat</li>
+            <li>Relatórios básicos</li>
+            <li>Hospedagem incluída</li>
+            <li>Ajustes rápidos</li>
+            <li>Atualizações da base de conhecimento</li>
+          </ul>
+          <button class="pricing-cta" data-plan="basic">Saiba Mais</button>
+        </div>
+        <div class="pricing-card popular fade-in-up">
+          <div class="pricing-badge">⭐ MAIS POPULAR</div>
+          <h3 class="pricing-title">PLUS</h3>
+          <div class="price">R$ 1.500 / mês</div>
+          <ul class="features-list">
+            <li>Até 1.000 contatos únicos/mês</li>
+            <li>Integração completa ClickUp</li>
+            <li>Suporte prioritário</li>
+            <li>Relatórios avançados</li>
+            <li>Customizações de fluxo</li>
+            <li>Hospedagem incluída</li>
+            <li>Ajustes rápidos</li>
+            <li>Atualizações da base de conhecimento</li>
+          </ul>
+          <button class="pricing-cta" data-plan="plus">Saiba Mais</button>
+        </div>
+        <div class="pricing-card fade-in-up">
+          <h3 class="pricing-title">PRO</h3>
+          <div class="price">R$ 2.000 / mês</div>
+          <ul class="features-list">
+            <li>Até 4.000 contatos únicos/mês</li>
+            <li>Integração completa ClickUp</li>
+            <li>Suporte dedicado</li>
+            <li>Relatórios personalizados</li>
+            <li>Integrações extras</li>
+            <li>Treinamentos mensais</li>
+            <li>Hospedagem incluída</li>
+            <li>Ajustes rápidos</li>
+            <li>Atualizações da base de conhecimento</li>
+          </ul>
+          <button class="pricing-cta" data-plan="pro">Saiba Mais</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container"><div class="footer-bottom"><p>&copy; 2025 Forux. Todos os direitos reservados.</p></div></div>
+  </footer>
+
+  <!-- JS: apenas um ponto de entrada em módulo -->
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

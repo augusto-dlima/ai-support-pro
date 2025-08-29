@@ -1,0 +1,7 @@
+.display-lg { font-family: var(--font-titles); font-size: 1.75rem; font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+/* Aparição */
+.fade-in-up { opacity: 0; transform: translateY(50px); transition: all 1s cubic-bezier(0.4,0,0.2,1); }
+.fade-in-up.visible { opacity: 1; transform: translateY(0); }
